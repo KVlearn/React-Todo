@@ -55,6 +55,7 @@ clearCompleted=()=>{
   })
 }
 
+//search task
 searchTask=(search)=>{
 this.setState({
   todos: this.state.todos.filter((item)=>item.task.toLowerCase().includes(search.toLowerCase()))
